@@ -1,6 +1,6 @@
 # RaShun Lyons
 # 11/4/2024
-# P4LAB2
+# P4HW1
 # Collect the number of scores and determine the letter grade
 
 # Ask the user for the number of scores they want to enter
