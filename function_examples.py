@@ -15,7 +15,12 @@ def returnNum():
     while not userInput.isnumeric():
         print("Value must be a number")
         userInput = input("Give me a big number: ")
-        return int(userInput)
+    return int(userInput)
+
+def getName(lastName):
+    name = input("Enter your first name: ")
+    fullname = "**********" + name + "**************" + lastName
+    return fullname
     
 
     
@@ -30,13 +35,17 @@ def main():
 # Call the multiply function
     multiply(first_num, second_num, third_num)
 
+# Call the add function
+    add(first_num, second_num, third_num)
 
 # Call the value returning function
-bigNum = returnNum()
+    bigNum = returnNum()
 
-print(bigNum * 5)
-# Call the add function
-add(first_num, second_num, third_num)
+    print(bigNum * 5)
+
+    print(getName("Lyons"))
+
+
 
 # Call the main function
 if __name__ == "__main__":
